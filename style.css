@@ -1,0 +1,151 @@
+@import url(https://fonts.google.com/);
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+   font-family: 'Monserrat', sans-serif; 
+}
+
+.header{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 30px;
+    text-align: right;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color:cyan;
+    font-size:medium;
+}
+
+.header ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("autumnleaves.jpg");
+    background-size: cover;
+}
+
+#center{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin-top: 15%;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: x-large;
+    min-height: 100vh;
+    padding: 5vw;
+}
+
+#under{
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.projects{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px
+}
+
+
+#logo{
+    width: 30%;
+    line-height: 80px;
+    padding-left: 5%;
+    float: left;
+    color: rgb(255, 136, 0);
+    font-size: large;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
+}
+
+
+
+/**SIDEBAR ICONS**/
+.nav{
+    position: fixed;
+    top: 38%;
+    width: 70px;
+    box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.4);
+}
+.nav li{
+    height: 60px;
+    position: relative;
+}
+.nav li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    padding-left: 25%;
+    border-bottom: 1px solid black;
+    transition: all .3s linear;
+}
+.nav li:nth-child(1) a{
+    color: white;
+    background: rgb(133, 162, 255);
+}
+.nav li:nth-child(2) a{
+    color: white;
+    background: rgb(0, 0, 0);
+}
+.nav li:nth-child(3) a{
+    color: white;
+    background: rgb(110, 110, 110);
+}
+.nav li:nth-child(4) a{
+    color: white;
+    background: rgb(255, 0, 0);
+}
+#userposition{
+    position: absolute;
+    top: 17px;
+    left: 24px;
+    font-size: 27px;
+}
+.nav li a i{
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    font-size: 27px;
+} 
+.nav li a span{
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: none;
+}
+.nav a:hover{
+    z-index: 2;
+    width: 200px;
+}
+
+ul li a:hover span{
+    display:block;
+    padding-left: 30%;
+}
+#nowrap{
+    white-space: nowrap;
+}
+
